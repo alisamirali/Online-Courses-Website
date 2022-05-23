@@ -122,6 +122,7 @@
 @media screen and (max-width: 1024px) {
     .about_achievements {
         margin-top: 2rem;
+        margin-bottom: 30rem;
     }
 
     .about-achievements-container {
@@ -145,6 +146,11 @@
 }
 
 @media screen and (max-width: 600px) {
+    .about_achievements {
+
+        margin-bottom: 38rem;
+    }
+
     .achievements-cards {
         grid-template-columns: 1fr 1fr;
         gap: 0.7rem;

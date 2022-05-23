@@ -612,7 +612,9 @@ footer ul li a:hover {
     }
 
     .question-answer h4 {
-        font-size: 0.6rem;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-left: -0.8rem;
     }
 
     .testimonial-body {
@@ -622,6 +624,10 @@ footer ul li a:hover {
     .footer-container {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+
+    .footer-1 a {
+        font-size: 1.3rem;
     }
 
     .footer-1 p {
