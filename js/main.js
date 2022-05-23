@@ -7,12 +7,12 @@ window.addEventListener("scroll", () => {
 
 /* Show Faq Answer */
 const faqs = document.querySelectorAll(".faq");
+
 faqs.forEach((faq) => {
   faq.addEventListener("click", () => {
     faq.classList.toggle("open");
 
-    // Change Icon
-    const icon = document.querySelector(".faq .faq-icon i");
+    const icon = faq.querySelector(".faq-icon i");
 
     if (icon.className === "uil uil-plus") {
       icon.className = "uil uil-angle-up";
